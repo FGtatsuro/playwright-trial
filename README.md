@@ -26,5 +26,5 @@ $ npx playwright install chromium
 $ npx playwright test --headed main.spec.ts
 
 # Run without Playwright CLI
-$ HEADLESS=false npx ts-node main.ts
+$ PWDEBUG=console npx ts-node main.ts
 ```
